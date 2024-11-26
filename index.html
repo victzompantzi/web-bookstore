@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.1/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-1">
+        <a href="#" class="logo">El Túnel</a>
+
+        <form action="" class="search-form">
+          <input type="search" name="" placeholder="Buscar" id="search-box" />
+          <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+          <a href="#" class="fa-regular fa-user" alt=""></a>
+          <a href="#" class="fa-regular fa-heart" alt=""></a>
+          <a href="#" class="fa fa-shopping-cart" alt=""></a>
+        </div>
+      </div>
+      <div class="header-2">
+        <nav class="navbar">
+          <a href="#">Inicio</a>
+          <a href="#">Libros</a>
+          <a href="#">Los más leídos</a>
+          <a href="#">Accesorios</a>
+          <a href="#">Sucursal</a>
+        </nav>
+      </div>
+      <div class="header-img">
+        <img src="./images/portada.jpg" alt="" />
+        <div class="text-overlay">
+          ...Creando nuevos mundos, historias y recuerdos
+        </div>
+        <div class="text-overlay-2">
+          "Vivir consiste en construir futuros recuerdos"
+        </div>
+      </div>
+    </header>
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>Recomendaciones</span></h1>
+      <div class="featured-slider">
+        <div class="wrapper">
+          <div class="box">
+            <img src="images/harry_filosofal.jpg" alt="" />
+            <div class="content">
+              <h3>Harry Potter y la piedra filosofal.</h3>
+              <div class="autor">J. K. Rowling</div>
+              <a href="#" class="btn">Ver más</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/soledad.jpg" alt="" />
+            <div class="content">
+              <h3>Cien años de soledad.</h3>
+              <div class="autor">Gabriel García Márquez.</div>
+              <a href="#" class="btn">Ver más</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/levedad.jpg" alt="" />
+            <div class="content">
+              <h3>La insoportable levedad del ser.</h3>
+              <div class="autor">Milan Kundera.</div>
+              <a href="#" class="btn">Ver más</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/agua.jpg" alt="" />
+            <div class="content">
+              <h3>Como agua para chocolate.</h3>
+              <div class="autor">J. K. Rowling</div>
+              <a href="#" class="btn">Ver más</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>Libros</span></h1>
+      <div class="featured-slider">
+        <div class="wrapper">
+          <div class="box">
+            <img src="images/silencio.jpg" alt="" />
+            <div class="content">
+              <h3>Fuerte es el silencio.</h3>
+              <div class="autor">Elena Poniatowska</div>
+              <span id="price">$450.00</span><br />
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/rayuela.jpg" alt="" />
+            <div class="content">
+              <h3>Rayuela.</h3>
+              <div class="autor">Julio Cortazar</div>
+              <span id="price">$445.00</span><br />
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/herodes.jpg" alt="" />
+            <div class="content">
+              <h3>La ley de Herodes</h3>
+              <div class="autor">Jorge Ibargüengoitia</div>
+              <span id="price">$150.00</span><br />
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/arrancame.jpg" alt="" />
+            <div class="content">
+              <h3>Arráncame la vida</h3>
+              <div class="autor">Ángeles Mastretta</div>
+              <span id="price">$350.00</span><br />
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="images/habitacion.jpg" alt="" />
+            <div class="content">
+              <h3>Una habitación propia.</h3>
+              <div class="autor">Virginia Woolf</div>
+              <span id="price">$240.00</span><br />
+              <a href="#" class="btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h1 class="heading"><span>Conócenos</span></h1>
+    <section class="about">
+      <article class="about-text">
+        <p>
+          El túnel es una cafebrería ideal para los amantes de la literatura.
+        </p>
+        <br />
+        <p>
+          Además de su servicio de venta de libros y productos en línea puedes
+          visitar nuestra sucursal y acompañar tu lectura con una taza de café o
+          bebida de tu elección, o bien, disfrutar de los diversos eventos
+          culturales que tenemos para ti.
+        </p>
+        <br />
+        <p>
+          Síguenos en redes sociales y mantente atento a la cartelera de
+          eventos.
+        </p>
+        <br />
+        <strong class="abte-centered">¡Te esperamos!</strong>
+      </article>
+      <div class="about-img">
+        <img src="images/libreria.jpg" alt="" />
+      </div>
+    </section>
+    <section class="info-container">
+      <div class="contact">
+        <h3>El Túnel</h3>
+        <hr />
+        <p>
+          Un espacio para los amantes de la literatura. Encuentra la mejor
+          selección de libros, accesorios y una cogedor espacio en la CDMX para
+          leer y tomar un café con tu libro favorito.
+        </p>
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Av. Álvaro Obregón 90, Roma Nte., Cuauhtémoc, 06700</span>
+        <br />
+        <i class="fa-solid fa-phone"></i>
+        <span>56 98 89 07 99 87</span>
+        <br />
+        <i class="fa-solid fa-envelope"></i>
+        <span>eltunel.libros@gmail.com</span>
+        <br />
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="info">
+        <h3>Información</h3>
+        <hr />
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca del El Túnel</a></li>
+          <li><a href="#">Tarjeta de cliente frecuente</a></li>
+          <li><a href="#">Ventas por mayoreo</a></li>
+          <li><a href="#">Facturación</a></li>
+          <li><a href="#">Contáctanos</a></li>
+          <li><a href="#">Aviso de privacidad</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+        </ul>
+      </div>
+      <div class="subscribe">
+        <h3>Suscríbete</h3>
+        <hr />
+        <p>
+          Regístrate para recibir noticias de promociones, eventos y
+          actualizaciones.
+        </p>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Ingresa tu email"
+          required
+        />
+        <a href="#" id="btn">Enviar</a>
+      </div>
+    </section>
+    <footer class="footer">
+      <br />
+      <p>
+        2024 &copy; El Túnel. Todos los derechos reservados. | Diseñado por
+        Escuela de Código ADIP
+      </p>
+      <br />
+    </footer>
+  </body>
+</html>
